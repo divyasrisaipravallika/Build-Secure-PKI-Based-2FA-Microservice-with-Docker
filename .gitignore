@@ -42,3 +42,6 @@ Thumbs.db
 
 # Build files
 *.log
+
+
+cron_job.py
