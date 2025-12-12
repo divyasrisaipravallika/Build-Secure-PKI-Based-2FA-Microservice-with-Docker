@@ -45,3 +45,19 @@ Thumbs.db
 
 
 cron_job.py
+
+
+# Ignore runtime data
+data/
+
+# Ignore unused cron sample file
+cron/cronjob.txt
+
+# Python cache
+__pycache__/
+
+# Bytecode
+*.pyc
+
+# Local environment
+.env
