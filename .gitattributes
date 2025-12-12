@@ -1,0 +1,32 @@
+* text=auto
+cron/* text eol=lf
+scripts/* text eol=lf
+*.sh text eol=lf
+*.pem text eol=lf
+
+
+# ================================
+# Enforce LF line endings
+# ================================
+
+# All Python files must use LF
+*.py text eol=lf
+
+# Shell scripts (entrypoint.sh, setup scripts)
+*.sh text eol=lf
+
+# Cron files (ABSOLUTELY MUST be LF)
+cron/*.txt text eol=lf
+
+# Requirements & config files
+*.txt text eol=lf
+*.md text eol=lf
+
+# Docker files
+Dockerfile text eol=lf
+docker-compose.yml text eol=lf
+
+# Disable Git's automatic CRLF conversion
+* -text
+
+cron/2fa-cron text eol=lf
